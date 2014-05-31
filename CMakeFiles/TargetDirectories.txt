@@ -1,0 +1,1 @@
+/home/lucky/sanskrit/CMakeFiles/sanskrit.dir
