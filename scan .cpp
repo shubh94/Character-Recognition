@@ -57,7 +57,7 @@ for(int i=0; i<src.rows; i++)
  			{		
  			cout<<"Hell"<<start<<"  "<<end<<endl; 
  			cv::Mat imageROI;
-			imageROI= src(cv::Rect(0,start,src.cols,end));
+			imageROI= src(cv::Rect(0,start,src.cols,end-start));
 			cv::imshow("src",imageROI);
   			waitKey(0);
   		}
