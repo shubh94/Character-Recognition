@@ -25,14 +25,14 @@ using namespace cv;
     }
     sum=sum/src.rows;
     cout<<"Dell "<<i<<" "<<sum<<endl;
-    if(sum<255)
+    if(sum<250)
     {
       if(start==0)
         start=i;
     }
     else
     {
-        if((prev!=255)&&(start>0))
+        if((prev<250)&&(start>0))
         {
             end= i-1;
             if(start!=end)
